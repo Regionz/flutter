@@ -146,7 +146,7 @@ class _CounterPageState extends State<CounterPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Увеличить',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.sentiment_neutral),
       ),
     );
   }
