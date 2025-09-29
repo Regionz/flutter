@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // 🧩 Новая кнопка, которая открывает CardScreen через Navigator.push
+            // Новая кнопка, которая открывает CardScreen через Navigator.push
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -182,7 +182,7 @@ class CardScreen extends StatelessWidget {
                 const SizedBox(height: 20),
                 ElevatedButton.icon(
                   onPressed: () {
-                    Navigator.pop(context); // 🔙 Возврат на главную
+                    Navigator.pop(context); // Возврат на главную
                   },
                   icon: const Icon(Icons.arrow_back),
                   label: const Text('Вернуться на главную'),
