@@ -176,7 +176,7 @@ class CardScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  'Это страница CardScreen',
+                  'Страница CardScreen',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 20),
@@ -184,8 +184,8 @@ class CardScreen extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context); // Возврат на главную
                   },
-                  icon: const Icon(Icons.arrow_back),
-                  label: const Text('Вернуться на главную'),
+                  icon: const Icon(Icons.home),
+                  label: const Text('Вернуться'),
                 ),
               ],
             ),
